@@ -1,11 +1,11 @@
 
 import instaData from "./instaData.js";
 import facebookData from "./facebookData.js";
-import twitterData from "./twitter.js";
+import tweetsData from "../data/tweetsData.js";
 
 const allData = [];
-const mixData = (instaData, facebookData,twitterData) => {
-  const maxLength = Math.max(instaData.length, facebookData.length,twitterData.length);
+const mixData = (instaData, facebookData,tweetsData) => {
+  const maxLength = Math.max(instaData.length, facebookData.length,tweetsData.length);
 
   for (let i = 0; i < maxLength; i++) {
     if (i < instaData.length) {
@@ -15,11 +15,11 @@ const mixData = (instaData, facebookData,twitterData) => {
     if (i < facebookData.length) {
       allData.push(facebookData[i]);
     }
-    if (i < twitterData.length) {
-      allData.push(twitterData[i]);
+    if (i < tweetsData.length) {
+      allData.push(tweetsData[i]);
     }
   }
 };
 
-mixData(instaData.posts, facebookData.posts,twitterData.posts);
+mixData(instaData.posts, facebookData.posts,tweetsData.posts);
 export default allData;

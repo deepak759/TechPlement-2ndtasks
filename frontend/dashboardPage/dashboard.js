@@ -1,9 +1,9 @@
 import facebookData from "../data/facebookData.js";
 import instaData from "../data/instaData.js";
-import twitterData from "../data/twitter.js";
+import tweetsData from "../data/tweetsData.js";
 
 document.addEventListener("DOMContentLoaded", function () {
-  const data = [facebookData, instaData, twitterData];
+  const data = [facebookData, instaData, tweetsData];
   const card = document.getElementById("profile");
 
   data.forEach((element) => {
