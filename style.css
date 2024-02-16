@@ -289,9 +289,10 @@ button:hover {
   position: relative;
   width:70%;
   min-height: 400px;
-  background: #fff;
+  background: #292929;
   box-shadow: 15px 15px 60px rgba(0, 0, 0, 0.15);
   padding: 20px;
+  color: white;
  
 }
 
@@ -299,6 +300,7 @@ button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: white;
 }
 
 .card .top .userDetails {
@@ -327,8 +329,9 @@ button:hover {
 
 .card .top .userDetails h3 {
   font-size: 16px;
-  color: #4d4d4f;
-  font-weight: 500;
+  color: #ffffff;
+  font-weight: bold;
+
   line-height: 1em;
 }
 
@@ -364,16 +367,16 @@ button:hover {
 }
 
 .likes {
-  font-weight: 500;
+  font-weight:bold;
   margin-top: 5px;
   font-size: 16px;
-  color: #4d4d4f;
+ 
 }
 
 .message {
   font-weight: 400;
   margin-top: 5px;
-  color: #141212;
+  
   line-height: 1.5em;
 }
 
@@ -388,8 +391,8 @@ button:hover {
 
 .comment {
   margin-top: 10px;
-  font-weight: 400;
-  color: #1b1818;
+  font-weight: bold;
+ 
 }
 
 .addComments {
@@ -413,7 +416,7 @@ button:hover {
   outline: none;
   font-weight: 400;
   font-size: 16px;
-  color: #262626;
+
 }
 
 .text::placeholder {
@@ -445,14 +448,14 @@ button:hover {
     display: none;
   }
   #app {
-    width: 100%;
+    width: 90%;
     left: auto;
     margin-top: 50px;
   }
   .card{
-    
-   
+    width:65%
   }
+  
 }
 @media (max-width: 500px) {
  
@@ -462,7 +465,7 @@ button:hover {
     margin-top: 50px;
   }
   .card{
-    
-   width: 90%;
+   
+   width: 99%;
   }
 }
