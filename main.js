@@ -1,8 +1,11 @@
+
+
 import facebookData from "./data/facebookData.js";
 import instaData from "./data/instaData.js";
 import allData from "./data/allData.js";
 import tweetsData from "./data/tweetsData.js";
 import suggestedAccounts from "./data/suggestedAccounts.js";
+
 
 
 
@@ -127,15 +130,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
       const likes = document.createElement("h4");
       likes.classList.add("likes");
-      likes.textContent = item.likes;
+      likes.textContent =`Likes: ${item.likes}`;
       const caption = document.createElement("h4");
       caption.classList.add("message");
-      caption.innerText = item.caption;
+      caption.innerText = `caption: ${item.caption}`;
       const comments = document.createElement("h4");
       comments.classList.add("comment");
-      comments.textContent = `view all ${item.commentsCount} comments`;
+      comments.textContent = `Commnets: ${item.commentsCount} `;
 
-      console.log(heart);
+
 
       card.appendChild(actionbtn);
       card.appendChild(likes);
