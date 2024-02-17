@@ -15,7 +15,7 @@ body {
   top: 0;
   left: 0;
   z-index: 10;
-  background-color: #111;
+  background-color: #2f3641;
   overflow-x: hidden;
   transition: 0.1s;
   padding-top: 60px;
@@ -134,7 +134,7 @@ button,
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
-  background-color: #444;
+  background-color: #3c475a;
   border: none;
   color: #fff;
   text-align: left;
@@ -143,7 +143,7 @@ button,
 
 button:hover,
 #dashboard:hover {
-  background-color: #555;
+  background-color: #474f5d;
 }
 
 #dashboard {
@@ -154,7 +154,7 @@ button:hover,
   position: absolute;
   bottom: 20px;
   width: 100%;
-
+background-color: #2f3641;
   text-align: center;
   display: flex;
   align-items: center;
@@ -176,12 +176,13 @@ button:hover,
   position: fixed;
   width: 25%;
   height: 100%;
-  background-color: #333;
+  background-color: #2f3641;
   padding-top: 20px;
 }
 
 #suggested-accounts {
   padding-top: 10px;
+  background-color: #2f3641;
 }
 
 button ,.logo-side{
@@ -189,7 +190,7 @@ button ,.logo-side{
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
-  background-color: #444;
+  background-color:#3f4753;
   border: none;
   color: #fff;
   text-align: left;
@@ -200,11 +201,12 @@ button ,.logo-side{
 
 
 button:hover {
-  background-color: #555;
+  background-color: #444f60;
 }
 
 #profile-section {
   text-align: center;
+  background-color: #2f3641;
 }
 
 #app {
@@ -216,10 +218,10 @@ button:hover {
 }
 
 #toppost {
-  width: 25%;
+  width: 26%;
   height: 100vh;
   position: fixed;
-  background-color: #302f2f;
+  background-color: #2f3641;
   color: white;
   padding-left: 10px;
   left: 74%;
@@ -244,6 +246,9 @@ button:hover {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
+}
+.box:hover{
+  background-color: #3f4a5d;
 }
 
 .follow {
